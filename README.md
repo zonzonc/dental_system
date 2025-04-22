@@ -20,17 +20,17 @@
 ```               
 
 dental_system/
-├── src/                       # 原始碼目錄
-│   ├── patient.c/h           # 病人資料與比較邏輯
-│   ├── heap.c/h              # 最小堆 (MinHeap)
-│   ├── avl.c/h               # AVL 平衡搜尋樹
-│   ├── dll.c/h               # 雙向鏈結串列
-│   ├── queue.c/h             # FIFO 佇列（使用 DLL）
-│   ├── dictionary.c/h        # 雜湊表 Dictionary
-│   ├── graph.c/h             # 醫生排班圖
-│   ├── cancellationlist.h    # 取消清單
-│   ├── main.c                # CLI 主程式
-│   └── Makefile              # GCC 編譯腳本
-└── dental_system.xcodeproj/  # Xcode 專案設定
+├── src/                      
+│   ├── patient.c/h           
+│   ├── heap.c/h              
+│   ├── avl.c/h               
+│   ├── dll.c/h               
+│   ├── queue.c/h             
+│   ├── dictionary.c/h        
+│   ├── graph.c/h             
+│   ├── cancellationlist.h    
+│   ├── main.c                
+│   └── Makefile              
+└── dental_system.xcodeproj/  
 
 ```               
